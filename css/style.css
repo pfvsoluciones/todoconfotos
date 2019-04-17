@@ -373,7 +373,20 @@ a:hover{
     color: #888;
     text-decoration: underline;
 }
-
+h99{
+	color: orange;
+}
+h98{
+	color: darkblue;
+}
+h97{
+	color: darkgreen;
+}
+h96{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}
 h1,h2,h3,h4,h5,h6{
     margin-bottom: 1.3em;
     line-height: 1.4;
@@ -1883,11 +1896,13 @@ a.logo:hover{
     box-shadow:  none;
 }
 .main-nav.dark .inner-nav ul > li > a{
-    color: rgba(255,255,255, .7);
+    color: rgba(218,0,2,0.75);/*Color de las letras del menú*/
+	font-weight: 500;
 }
 .main-nav.dark .inner-nav ul > li > a:hover,
-.main-nav.dark .inner-nav ul > li > a.active{
-    color: #fff;
+.main-nav.dark .inner-nav ul > li > a.active{/*color del menú que se encuentra activo*/
+    color: rgba(255,0,2,1.00);
+	font-weight: 500;
 }
 
 .main-nav.dark .mobile-nav{
